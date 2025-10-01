@@ -22,6 +22,12 @@ yarn-error.log*
 /public/storage
 /bootstrap/cache/*.php
 
+# Next.js
+.next/
+out/
+.vercel
+.turbo
+
 # Build outputs
 dist/
 build/
