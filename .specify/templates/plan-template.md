@@ -1,4 +1,3 @@
-
 # Implementation Plan: [FEATURE]
 
 **Branch**: `[###-feature-name]` | **Date**: [DATE] | **Spec**: [link]
@@ -47,7 +46,11 @@
 ## Constitution Check
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- **AI-Driven Content Creation**: If feature involves content generation, must integrate AI technologies with ethical considerations and customization options.
+- **Cross-Platform Scheduling**: If feature includes scheduling, must support multiple social media platforms with optimizations and conflict detection.
+- **Test-First Development**: All code must follow TDD: tests first (Vitest for unit, React Testing Library for components, Playwright for E2E).
+- **Secure User Management**: Authentication features must use Argon2 hashing, secure sessions, rate limiting, and RBAC.
+- **Scalable Architecture**: Must use Next.js App Router, Tanstack Query, Prisma with MongoDB for type-safe operations.
 
 ## Project Structure
 

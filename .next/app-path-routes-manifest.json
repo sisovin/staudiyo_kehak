@@ -1,0 +1,15 @@
+{
+  "/api/auth/signup/route": "/api/auth/signup",
+  "/api/posts/route": "/api/posts",
+  "/_not-found/page": "/_not-found",
+  "/auth/signin/page": "/auth/signin",
+  "/auth/signup/page": "/auth/signup",
+  "/contact/page": "/contact",
+  "/docs/setup/page": "/docs/setup",
+  "/about/page": "/about",
+  "/page": "/",
+  "/docs/page": "/docs",
+  "/testimonials/page": "/testimonials",
+  "/pricing/page": "/pricing",
+  "/features/page": "/features"
+}
